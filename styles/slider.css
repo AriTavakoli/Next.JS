@@ -1,0 +1,48 @@
+.timeline {
+  width: 100%;
+  height: 200px;
+  position: relative;
+
+}
+
+
+.keyFrame {
+  margin: 0;
+  padding-left: 0;
+  width:20px;
+  height:20px;
+  border-radius: 100%;
+  background-color: white;
+  z-index: 2;
+}
+
+.timelineContainer {
+  width: 400px;
+  padding-left: 0;
+  margin-left: 0;
+  height: 200px;
+  background-color: purple;
+}
+
+.slider {
+  color: #20b2aa;
+}
+
+.div1 {
+
+}
+
+.box {
+  position: absolute;
+  cursor: move;
+  color: rgb(255, 255, 255);
+
+  background-color: white;
+
+  border-radius: 100%;
+  width:20px;
+  height:20px;
+  z-index: 2;
+
+  user-select: none;
+}
