@@ -11,6 +11,7 @@ import tasksReducer from '@/com/TasksReducer'
 import Color from '@/com/Color'
 import ImageEditor from '@/com/ImageEditor'
 import Element from '@/com/element'
+import Extend from '@/com/Extend'
 
 
 
@@ -50,7 +51,8 @@ export default function App() {
     <>
       <div>
 
-       <Element></Element>
+
+       <Extend> sd </Extend>
 
       </div>
 
