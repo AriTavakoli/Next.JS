@@ -12,6 +12,7 @@ import Color from '@/com/Color'
 import ImageEditor from '@/com/ImageEditor'
 import Element from '@/com/element'
 import Extend from '@/com/Extend'
+import Canvas from '@/com/Canvas'
 
 
 
@@ -52,7 +53,8 @@ export default function App() {
       <div>
 
 
-       <Extend> sd </Extend>
+
+       <Canvas></Canvas>
 
       </div>
 
